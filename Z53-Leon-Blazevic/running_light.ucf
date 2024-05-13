@@ -1,0 +1,16 @@
+
+
+NET "LED[7]" LOC = D24;
+NET "LED[6]" LOC = H24;
+NET "LED[5]" LOC = K24;
+NET "LED[4]" LOC = L23;
+NET "LED[3]" LOC = L24;
+NET "LED[2]" LOC = M24;
+NET "LED[1]" LOC = N23;
+NET "LED[0]" LOC = N24;
+NET "SW[1]" LOC = Y24;
+NET "CLK" LOC = M21;
+
+# PlanAhead Generated physical constraints 
+
+NET "SW[0]" LOC = W19;

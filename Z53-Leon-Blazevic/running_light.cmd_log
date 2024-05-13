@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "E:/Z53-Leon-Blazevic/running_light.xst" -ofn "E:/Z53-Leon-Blazevic/running_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc running_light.ucf -p xc6slx45-fgg676-2 running_light.ngc running_light.ngd  
+map -intstyle ise -p xc6slx45-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o running_light_map.ncd running_light.ngd running_light.pcf 
+par -w -intstyle ise -ol high -mt off running_light_map.ncd running_light.ncd running_light.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml running_light.twx running_light.ncd -o running_light.twr running_light.pcf -ucf running_light.ucf 
+bitgen -intstyle ise -f running_light.ut running_light.ncd 
+xst -intstyle ise -ifn "E:/Z53-Leon-Blazevic/running_light.xst" -ofn "E:/Z53-Leon-Blazevic/running_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc running_light.ucf -p xc6slx45-fgg676-2 running_light.ngc running_light.ngd  
+xst -intstyle ise -ifn "E:/Z53-Leon-Blazevic/running_light.xst" -ofn "E:/Z53-Leon-Blazevic/running_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc running_light.ucf -p xc6slx45-fgg676-2 running_light.ngc running_light.ngd  
+map -intstyle ise -p xc6slx45-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o running_light_map.ncd running_light.ngd running_light.pcf 
+par -w -intstyle ise -ol high -mt off running_light_map.ncd running_light.ncd running_light.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml running_light.twx running_light.ncd -o running_light.twr running_light.pcf -ucf running_light.ucf 
+bitgen -intstyle ise -f running_light.ut running_light.ncd 

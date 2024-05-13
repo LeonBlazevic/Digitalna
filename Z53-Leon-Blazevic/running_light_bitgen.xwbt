@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\Z53-Leon-Blazevic\running_light.ncd
+OUTFILE=E:\Z53-Leon-Blazevic\running_light.bit
+FAMILY=Spartan6
+PART=xc6slx45-2fgg676
+WORKINGDIR=E:\Z53-Leon-Blazevic
+LICENSE=ISE
+USER_INFO=210968192_1777509436_210669687_605
